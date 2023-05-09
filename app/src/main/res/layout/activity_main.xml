@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:text="안드로이드 예제 모음" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            app:srcCompat="@drawable/imgzg4" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8.5"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제1강 화면구성(로그인,회원가입)" />
+
+                    <ImageView
+                        android:id="@+id/ivView1"
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal"> </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제2강 계산기기능구현(포트폴리오용)" />
+
+                    <ImageView
+                        android:id="@+id/ivView2"
+                        android:layout_width="20dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal"> </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제3강 애니메이션" />
+
+                    <ImageView
+                        android:id="@+id/ivView3"
+                        android:layout_width="20dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal"> </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제4강 GIF이미지 예제" />
+
+                    <ImageView
+                        android:id="@+id/ivView4"
+                        android:layout_width="20dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal"> </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제5강 데이터 전송" />
+
+                    <ImageView
+                        android:id="@+id/ivView5"
+                        android:layout_width="20dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal"> </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제6강 스피너 예제" />
+
+                    <ImageView
+                        android:id="@+id/ivView6"
+                        android:layout_width="20dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal"> </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제7강 스위치 예제" />
+
+                    <ImageView
+                        android:id="@+id/ivView7"
+                        android:layout_width="20dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal"> </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제8강 웹뷰" />
+
+                    <ImageView
+                        android:id="@+id/ivView8"
+                        android:layout_width="20dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal"> </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제9강 음악 예제" />
+
+                    <ImageView
+                        android:id="@+id/ivView9"
+                        android:layout_width="20dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal"> </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제10강 비디오 뷰 예제" />
+
+                    <ImageView
+                        android:id="@+id/ivView10"
+                        android:layout_width="20dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal"> </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제11강 대기 갤러리 뷰 예제" />
+
+                    <ImageView
+                        android:id="@+id/ivView11"
+                        android:layout_width="20dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal"> </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제12강 축구게임 예제" />
+
+                    <ImageView
+                        android:id="@+id/ivView12"
+                        android:layout_width="20dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal"> </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제13강 시간초" />
+
+                    <ImageView
+                        android:id="@+id/ivView13"
+                        android:layout_width="20dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal"> </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제14강 " />
+
+                    <ImageView
+                        android:id="@+id/ivView14"
+                        android:layout_width="20dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal"> </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제15강" />
+
+                    <ImageView
+                        android:id="@+id/ivView15"
+                        android:layout_width="20dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal"> </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제16강" />
+
+                    <ImageView
+                        android:id="@+id/ivView16"
+                        android:layout_width="20dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal"> </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제17강" />
+
+                    <ImageView
+                        android:id="@+id/ivView17"
+                        android:layout_width="20dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제18강" />
+
+                    <ImageView
+                        android:id="@+id/ivView18"
+                        android:layout_width="20dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제19강" />
+
+                    <ImageView
+                        android:id="@+id/ivView19"
+                        android:layout_width="20dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제20강" />
+
+                    <ImageView
+                        android:id="@+id/ivView20"
+                        android:layout_width="20dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제21강" />
+
+                    <ImageView
+                        android:id="@+id/ivView21"
+                        android:layout_width="20dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+                </LinearLayout> <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:text="제22강" />
+
+                <ImageView
+                    android:id="@+id/ivView22"
+                    android:layout_width="20dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/imgclick" />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제23강" />
+
+                    <ImageView
+                        android:id="@+id/ivView23"
+                        android:layout_width="20dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제24강" />
+
+                    <ImageView
+                        android:id="@+id/ivView24"
+                        android:layout_width="20dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제25강" />
+
+                    <ImageView
+                        android:id="@+id/ivView25"
+                        android:layout_width="20dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제26강" />
+
+                    <ImageView
+                        android:id="@+id/ivView26"
+                        android:layout_width="20dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="제32강 안드로이드 web 통신" />
+
+                    <ImageView
+                        android:id="@+id/ivView32"
+                        android:layout_width="20dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/imgclick" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
